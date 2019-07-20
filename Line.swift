@@ -26,6 +26,9 @@ class Line: UIViewController, UIActionSheetDelegate {
     }
     @IBAction func btn03(_ sender: Any) {
         UIView.animate(withDuration: 0.1, delay: 0.1,usingSpringWithDamping: 0.1, initialSpringVelocity: 0.1, options: .allowAnimatedContent, animations:{self.line.center.x = self.btn3.center.x}, completion: nil)
+        
+        let secondView = self.storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        self.present(secondView, animated: true, completion: nil)
     }
     @IBAction func btn04(_ sender: Any) {
         UIView.animate(withDuration: 0.1, delay: 0.1,usingSpringWithDamping: 0.1, initialSpringVelocity: 0.1, options: .allowAnimatedContent, animations:{self.line.center.x = self.btn4.center.x}, completion: nil)

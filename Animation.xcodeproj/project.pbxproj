@@ -18,6 +18,7 @@
 		8A2630DE22E14319007E4000 /* btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2630DD22E14319007E4000 /* btn.swift */; };
 		8A2630E222E1543D007E4000 /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2630E122E1543D007E4000 /* gradientView.swift */; };
 		8A2630E422E17728007E4000 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2630E322E17728007E4000 /* Line.swift */; };
+		8AEDF29422E29CE20064493F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDF29322E29CE20064493F /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8A2630DD22E14319007E4000 /* btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btn.swift; sourceTree = "<group>"; };
 		8A2630E122E1543D007E4000 /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
 		8A2630E322E17728007E4000 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		8AEDF29322E29CE20064493F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		8A2630A022E14262007E4000 = {
 			isa = PBXGroup;
 			children = (
+				8AEDF29322E29CE20064493F /* ViewController2.swift */,
 				8A2630E322E17728007E4000 /* Line.swift */,
 				8A2630E122E1543D007E4000 /* gradientView.swift */,
 				8A2630DD22E14319007E4000 /* btn.swift */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AEDF29422E29CE20064493F /* ViewController2.swift in Sources */,
 				8A2630DE22E14319007E4000 /* btn.swift in Sources */,
 				8A2630B522E14262007E4000 /* Animation.xcdatamodeld in Sources */,
 				8A2630E222E1543D007E4000 /* gradientView.swift in Sources */,
